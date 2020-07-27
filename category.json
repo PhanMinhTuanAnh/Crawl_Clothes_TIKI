@@ -1,0 +1,118 @@
+[
+    {
+        "name": "Trang phục nam",
+        "parent_id": "null"
+    },
+    {
+        "name": "Trang phục nữ",
+        "parent_id": "null"
+    },
+    {
+        "name": "Áo nam",
+        "parent_id": 1
+    },
+    {
+        "name": "Quần nam",
+        "parent_id": 1
+    },
+    {
+        "name": "Áo nữ",
+        "parent_id": 2
+    },
+    {
+        "name": "Quần nữ",
+        "parent_id": 2
+    },
+    {
+        "name": "Chân váy",
+        "parent_id": 2
+    },
+    {
+        "name": "Đầm nữ",
+        "parent_id": 2
+    },
+    {
+        "name": "Áo thun nam",
+        "parent_id": 3
+    },
+    {
+        "name": "Áo sơ mi nam",
+        "parent_id": 3
+    },
+    {
+        "name": "Áo hoodie nam",
+        "parent_id": 3
+    },
+    {
+        "name": "Áo len nam",
+        "parent_id": 3
+    },
+    {
+        "name": "Áo khoác nam",
+        "parent_id": 3
+    },
+    {
+        "name": "Quần jogger nam",
+        "parent_id": 4
+    },
+    {
+        "name": "Quần jean nam",
+        "parent_id": 4
+    },
+    {
+        "name": "Quần kaki nam",
+        "parent_id": 4
+    },
+    {
+        "name": "Quần shorts nam",
+        "parent_id": 4
+    },
+    {
+        "name": "Quần tây nam",
+        "parent_id": 4
+    },
+    {
+        "name": "Áo thun nư",
+        "parent_id": 5
+    },
+    {
+        "name": "Áo sơ mi nữ",
+        "parent_id": 5
+    },
+    {
+        "name": "Áo khoác nữ",
+        "parent_id": 5
+    },
+    {
+        "name": "Quần jean nữ",
+        "parent_id": 6
+    },
+    {
+        "name": "Quần kaki nữ",
+        "parent_id": 6
+    },
+    {
+        "name": "Quần legging nữ",
+        "parent_id": 6
+    },
+    {
+        "name": "Quần shorts nữ",
+        "parent_id": 6
+    },
+    {
+        "name": "Quần tây nữ",
+        "parent_id": 6
+    },
+    {
+        "name": "Đầm suông nữ",
+        "parent_id": 8
+    },
+    {
+        "name": "Đầm xòe nữ",
+        "parent_id": 8
+    },
+    {
+        "name": "Đầm ôm nữ",
+        "parent_id": 8
+    }
+]
