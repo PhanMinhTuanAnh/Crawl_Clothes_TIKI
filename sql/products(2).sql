@@ -1,14 +1,6 @@
-CREATE TABLE IF NOT EXISTS `data` (
-`name` VARCHAR(MAX) NULL,
-`description` VARCHAR(MAX) NULL,
-`image` VARCHAR(MAX) NULL,
-`quantity` INT NULL,
-`price` INT NULL,
-`category_id` INT NULL,
-`rate_avg` INT NULL
-);
+SET FOREIGN_KEY_CHECKS=0;
 
-INSERT INTO data VALUES
+INSERT INTO tripletclothes.products (name, description, image, quantity, price, category_id, rate_avg) VALUES
 ('Áo Thun Nam In Hình Naruto Everest AokNAM412 (Trắng)','Chất liệu vải thun thoáng mát\, thấm hút mồ hôi/Thiết kế áo cổ tròn phối tay ngắn đơn giản/Họa tiết nhân vật Naruto nổi bật tạo điểm nhấn trẻ trung\, năng động/Form áo vừa vặn tôn đường nét mạnh mẽ\, tạo sự thoải mái/Dễ dàng kết hợp với nhiều loại trang phục khác nhau/','image-1-3-9-0-(0).jpg',39,69000,9,1),
 ('Áo thun nam tay lỡ form rộng Unisex Methata Freesize mặc vừa từ 45 - 70kg ','Kích thước: Dài 63cm\, ngang 52cm/Size: Áo freesize\, form rộng tay lỡ mặc vừa từ 45-70kg. Vòng 1 và vòng 2 nhỏ hơn 100cm\, cao dưới 1m65 vô tư bận/Chất thun Tici mịn mát\, không co rút\, dày vừa không bí\, PHÙ HỢP GIÁ TIỀN/Hình in: rõ nét\, chất lượng cao\, không phai màu/','image-1-3-9-1-(0).jpg',81,48000,9,0),
 ('Combo 3 áo thun trơn nam thời trang Everest màu trắng đen xám','Chất liệu thun mềm mại co giãn tốt \, thoáng mát/Thiết kế thời trang phù hợp xu hướng hiện nay/Kiểu dáng đa phong cách/Đường may tinh tế sắc sảo/Áo thun được thiết kế vể đẹp trẻ trung năng động nhưng không kém phần mạnh mẽ./Áo được thiết kế đẹp\, chuẩn form\, đường may sắc xảo\, vải dày\, mịn\, thấm hút mồ hôi tạo sự thoải mái khi mặc!/Dễ dàng phối trang phục \, thích hợp đi chơi đi làm đi dạo phố/','image-1-3-9-2-(0).jpg',91,119000,9,0),
@@ -361,3 +353,5 @@ INSERT INTO data VALUES
 ('Đầm Hoa Đuôi Cá Phong Cách Nhẹ Nhàng  - NT8165','Chất liệu cao cấp/sang trọng/hợp thời trang/','image-2-8-29-13-(0).jpg',70,150000,30,2),
 ('Đầm Ôm Body Xẻ Tà Cá Tính','Thiết kế trẻ trung phù hợp với nhiều lứa tuổi/Đường may tinh tế\, tỉ mỉ\, chắc chắn/Form ôm co giãn tạo cảm giác thoải mái khi mặc/Chất liệu Cotton cao cấp\, mềm mại co giãn và thấm hút mồ hôi tốt/','image-2-8-29-14-(0).jpg',0,89000,30,1),
 ('Váy đầm body hai dây dúm eo SIÊU ĐẸP','Chất liệu: mềm hơn\, mịn hơn\, thoáng mát hơn/Kiểu dáng: trẻ trung\, năng động/Màu sắc: đa dạng để bạn lựa chọn/Chất liệu vải: không xù lông\, giặt không phai màu/Sản xuất: Việt Nam/Nguồn gốc xuất xứ: rõ ràng\, đã được kiểm định chất lượng về độ an toàn của chất liệu với người tiêu dùng./Cam kết: Sản Phẩm Chất Lượng- An Toàn Tuyệt Đối - Bền Bỉ với Thời Gian/','image-2-8-29-15-(0).jpg',52,79000,30,1);
+
+SET FOREIGN_KEY_CHECKS=1;

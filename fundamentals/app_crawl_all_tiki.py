@@ -81,9 +81,9 @@ for key in urls:
                 
                 #lấy link hình
                 image = treeLoop.xpath("//*[@class='container']/img/@src")[0]
-                f = open("fundamentals/images/image-" + key + "-" + str(count) + "-(0)" + ".jpg", 'wb')
-                f.write(requests.get(image).content)
-                image = "image-" + key + "-" + str(count) + "-(0)" + ".jpg"
+                # f = open("fundamentals/images/image-" + key + "-" + str(count) + "-(0)" + ".jpg", 'wb')
+                # f.write(requests.get(image).content)
+                # image = "image-" + key + "-" + str(count) + "-(0)" + ".jpg"
 
                 quantity = random.randrange(100)
                 
@@ -121,4 +121,4 @@ for key in urls:
             pass
     categoryID = categoryID + 1
     
-write_to_json("data.json", data)
+write_to_json("json/product.json", data)
